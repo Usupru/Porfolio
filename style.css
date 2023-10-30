@@ -1,0 +1,164 @@
+body{
+
+   background-color: rgb(44,47,51);
+   color: white;
+   background-image: url("https://cdn.discordapp.com/attachments/973986749338505269/1168678437351862363/espacio.jpg?ex=6552a39c&is=65402e9c&hm=2898a67e6f7c46fe1cdfef1452dcf1987db0c979af764bd2671318d31d0c0ace&");
+   background-size: cover; /* Ajusta el tamaño de la imagen al tamaño del body */
+   background-repeat: no-repeat; /* Evita la repetición de la imagen */
+   background-attachment: fixed; /* Fija la imagen en su lugar mientras se desplaza la página */
+
+}
+
+h1{
+
+  font-size: 70px;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+
+}
+
+
+p{
+
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bolder;
+
+}
+
+li{
+
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bolder;
+  list-style-type: none;
+  font-size: 20px;
+  margin-bottom: 10px;
+
+}
+
+.areasList {
+  border: none;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bolder;
+  list-style-type: none;
+  font-size: 25px;
+  display: flex; /* Utiliza flexbox para centrar el contenido verticalmente */
+  align-items: center; /* Alinea verticalmente el contenido en el botón */
+}
+
+
+#navigation {
+  display: grid;
+  grid-template-rows: repeat(4, 30px); /* Puedes usar "repeat" para definir filas de igual altura */
+  grid-gap: 20px;
+  justify-items: start;
+  margin-left: 20px;
+  align-items: center; /* Alinea verticalmente los elementos en el contenedor */
+}
+
+.biographyList{
+
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bolder;
+  list-style-type: none;
+  font-size: 20px;
+  margin-top: 100px;
+
+}
+
+.typing-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+ .input-cursor {
+      display: inline-block;
+      width: 2px;
+      height: 42px;
+      background-color: white;
+      margin-left: 8px;
+}
+
+@keyframes blink {
+    0% {opacity: 1;}
+    40% {opacity: 1;}
+    60% {opacity: 0;}
+    100% {opacity: 0;}
+  }
+
+.input-cursor {
+  animation: blink .6s linear infinite alternate;
+}
+
+a{
+
+  text-decoration: none;
+
+}
+
+.biographyArea{
+
+    font-size: 20px;
+
+}
+
+ul{
+
+   list-style: none;
+
+}
+
+
+.titlePage{
+
+   margin-top: 100px;
+}
+
+button {
+  color: white;
+  background-color: transparent;
+  border: none; /* Quita el borde predeterminado del botón */
+  padding: 0; /* Elimina el relleno predeterminado del botón */
+}
+
+button:hover{
+
+  background-color: transparent;
+  /*border: 1px solid white; */
+  padding: 5px;
+  border-radius: 3px;
+  color: #4287f5;
+
+}
+
+.invisibleSpace{
+  color: transparent;
+}
+
+a:link {
+  color: #4287f5;
+}
+
+a:visited {
+  color: #4287f5; /* Cambiar el color a morado */
+}
+
+a:hover {
+  color: #4287f5; /* Cambiar el color a verde */
+}
+
+a:active {
+  color: #4287f5  ; /* Cambiar el color a rojo */
+}
+
+#discordUser{
+
+  color: #4287f5
+
+}
+
+.contactMeDiv{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 15px;
+}
